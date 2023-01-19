@@ -1,10 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # 1. Write a Python Program to Check if a Number is Positive, Negative or Zero?
-
-# In[3]:
-
+# 1. Write a Python Program to Check if a Number is Positive, Negative or Zero?
 
 a = int(input("Enter a: "))
 if a > 0:
@@ -15,10 +9,7 @@ else:
     print("Negative")
 
 
-# # 2. Write a Python Program to Check if a Number is Odd or Even?
-
-# In[5]:
-
+# 2. Write a Python Program to Check if a Number is Odd or Even?
 
 a = int(input("Enter a: "))
 if a % 2 == 0:
@@ -27,10 +18,7 @@ else:
     print("odd")
 
 
-# # 3. Write a Python Program to Check Leap Year?
-
-# In[8]:
-
+# 3. Write a Python Program to Check Leap Year?
 
 year = int(input("Enter year: "))
 if (year % 400 == 0) and (year % 100 == 0):
@@ -41,10 +29,7 @@ else:
     print("Not a leap year")
 
 
-# # 4. Write a Python Program to Check Prime Number?
-
-# In[17]:
-
+# 4. Write a Python Program to Check Prime Number?
 
 a = int(input("Enter a: "))
 if a == 1:
@@ -57,10 +42,7 @@ if a == 1:
         print("prime no")
 
 
-# # 5. Write a Python Program to Print all Prime Numbers in an Interval of 1-10000?
-
-# In[18]:
-
+# 5. Write a Python Program to Print all Prime Numbers in an Interval of 1-10000?
 
 lower = 1
 upper = 10000
@@ -75,10 +57,4 @@ for num in range(lower, upper + 1):
                break
        else:
            print(num)
-
-
-# In[ ]:
-
-
-
-
+            
