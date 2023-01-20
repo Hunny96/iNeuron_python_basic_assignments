@@ -1,10 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # 1. Write a Python Program to Find the Factorial of a Number?
-
-# In[1]:
-
+# 1. Write a Python Program to Find the Factorial of a Number?
 
 num = int(input("Enter number: "))
 fact = 1
@@ -18,10 +12,7 @@ else:
     print("Factorial of", num, "is", fact)
 
 
-# # 2. Write a Python Program to Display the multiplication Table?
-
-# In[4]:
-
+# 2. Write a Python Program to Display the multiplication Table?
 
 num = int(input("enter number: "))
 print("Multiplication table of", num, "is:")
@@ -29,10 +20,7 @@ for i in range(1,11):
     print(num, "X", i, "=", num*i)
 
 
-# # 3. Write a Python Program to Print the Fibonacci sequence?
-
-# In[17]:
-
+# 3. Write a Python Program to Print the Fibonacci sequence?
 
 def fib1(n):
     a = 0
@@ -45,10 +33,7 @@ def fib1(n):
 fib1(10)
 
 
-# # 4. Write a Python Program to Check Armstrong Number?
-
-# In[19]:
-
+# 4. Write a Python Program to Check Armstrong Number?
 
 num = int(input("Enter a Number:"))
 order = len(str(num))
@@ -64,10 +49,7 @@ else:
     print("",num,"is not an Armstrong number")
 
 
-# # 5. Write a Python Program to Find Armstrong Number in an Interval?
-
-# In[20]:
-
+# 5. Write a Python Program to Find Armstrong Number in an Interval?
 
 lower = int(input("Enter lower range: "))  
 upper = int(input("Enter upper range: "))  
@@ -83,10 +65,7 @@ for num in range(lower,upper + 1):
             print(num)  
 
 
-# # 6. Write a Python Program to Find the Sum of Natural Numbers?
-
-# In[26]:
-
+# 6. Write a Python Program to Find the Sum of Natural Numbers?
 
 n=int(input("Enter a number: "))
 sum1 = 0
@@ -94,10 +73,3 @@ while(n > 0):
     sum1=sum1+n
     n=n-1
 print("The sum of first n natural numbers is",sum1)
-
-
-# In[ ]:
-
-
-
-
